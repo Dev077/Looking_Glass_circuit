@@ -18,7 +18,7 @@ import os
 import torch
 from tqdm import tqdm
 from transformer_lens import HookedTransformer, utils
-from looking_glass_dataset_v2 import LOOKING_GLASS_DATASET
+from looking_glass_dataset import LOOKING_GLASS_DATASET
 
 
 # ---------------------------------------------------------------------------
