@@ -25,7 +25,7 @@ from looking_glass_dataset import LOOKING_GLASS_DATASET
 # Configuration
 # ---------------------------------------------------------------------------
 # Options: "meta-llama/Meta-Llama-3.1-8B-Instruct", "google/gemma-2-9b-it", "google/gemma-2-2b-it"
-MODEL_NAME = "google/gemma-2-2b-it" 
+MODEL_NAME = "google/gemma-2-9b-it" 
 OUTPUT_DIR = "./cached_data"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, f"{MODEL_NAME.split('/')[-1]}_cached_acts.pt")
 
